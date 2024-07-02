@@ -4,6 +4,7 @@ body {
     font-size: 12px;
     max-width: 960px;
     margin: auto;
+    box-sizing: border-box;
 }
 
 main {
@@ -72,6 +73,8 @@ li {
 
 #mainLeft {
     border-right: 1px solid #050404;
+    width: 100%;
+    
 }
 
 a {
@@ -89,3 +92,19 @@ a {
 .fa-envelope:hover {
     color: red;
     }
+@media screen and (max-width: 576px) {
+    i{
+        font-size:11px
+    }
+    body {
+        font-size: 10px;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 1em;
+    } 
+    h3 {
+        font-size: .5em;
+}
